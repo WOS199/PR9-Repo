@@ -3,6 +3,7 @@
   src: url("./fonts/Inter/static/Inter-Regular.ttf") format("truetype");
   font-weight: 400;
   font-style: normal;
+  font-display: swap;
 }
 
 @font-face {
@@ -10,6 +11,7 @@
 	src: url("./fonts/Spectral/Spectral-ExtraBoldItalic.ttf") format("truetype");
 	font-weight: 800;
 	font-style: italic;
+  font-display: swap;
   }
 
   @font-face {
@@ -17,6 +19,7 @@
 	src: url("./fonts/Spectral/Spectral-ExtraBold.ttf") format("truetype");
 	font-weight: 800;
 	font-style: normal;
+  font-display: swap;
   }
 
   @font-face {
@@ -24,6 +27,7 @@
 	src: url("./fonts/Spectral/Spectral-LightItalic.ttf") format("truetype");
 	font-weight: 300;
 	font-style: italic;
+  font-display: swap;
   }
 
 body {
@@ -133,8 +137,8 @@ body {
 }
 .nav-pills .nav-link.active,
 .nav-pills .show > .nav-link {
-  color: #fff;
-  background-color: #beb45a;
+  color: #000;
+  background-color: #d8d085;
   border-radius: 0;
 }
 .nav-pills .nav-link {
